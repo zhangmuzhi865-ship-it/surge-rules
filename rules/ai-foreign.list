@@ -1,0 +1,81 @@
+# AI 国外规则集
+# 仓库: https://github.com/zhangmuzhi865-ship-it/surge-rules
+# 更新: 2026-11-09
+# 用法: RULE-SET,https://raw.githubusercontent.com/zhangmuzhi865-ship-it/surge-rules/main/rules/ai-foreign.list,PROXY
+# 说明: 国外 AI 服务，需走代理；只含 AI 服务本身的域名，不含 google.com / microsoft.com 等通用域名
+
+# OpenAI / ChatGPT
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.azure.com
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+
+# Google / Gemini
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,gemini.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+
+# Microsoft Copilot
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
+
+# GitHub Copilot
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# Mistral AI
+DOMAIN-SUFFIX,mistral.ai
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,llama.com
+
+# Hugging Face
+DOMAIN-SUFFIX,huggingface.co
+
+# Midjourney / Stability / Runway / Leonardo
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,leonardo.ai
+
+# Character.AI / Poe / Suno
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,suno.com
+
+# Cohere / AI21
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,ai21.com
+
+# Cursor / Codeium / Windsurf
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.com
+
+# AI API 聚合 / 推理
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN,api.together.xyz
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,302.ai

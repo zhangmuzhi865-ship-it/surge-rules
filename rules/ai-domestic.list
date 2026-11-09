@@ -1,0 +1,52 @@
+# AI 国内规则集
+# 仓库: https://github.com/zhangmuzhi865-ship-it/surge-rules
+# 更新: 2026-11-09
+# 用法: RULE-SET,https://raw.githubusercontent.com/zhangmuzhi865-ship-it/surge-rules/main/rules/ai-domestic.list,DIRECT
+# 说明: 国内 AI 服务，在国内直连即可，走代理反而慢、还可能被当成境外 IP 拦住
+
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+
+# Qwen / 通义千问
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN,dashscope.aliyuncs.com
+DOMAIN,dashscope-intl.aliyuncs.com
+DOMAIN,tongyi.aliyun.com
+
+# Kimi / Moonshot
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,moonshot.ai
+
+# Doubao / 豆包
+DOMAIN-SUFFIX,doubao.com
+DOMAIN,ark.cn-beijing.volces.com
+DOMAIN,ark.cn-shanghai.volces.com
+
+# Zhipu / 智谱 GLM
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,zhipuai.cn
+
+# Baidu / 文心一言
+DOMAIN,yiyan.baidu.com
+DOMAIN,wenxin.baidu.com
+DOMAIN,ai.baidu.com
+
+# MiniMax / 海螺
+DOMAIN-SUFFIX,minimax.com
+DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,hailuoai.com
+
+# StepFun / 阶跃星辰
+DOMAIN-SUFFIX,stepfun.com
+
+# 01.AI / 零一万物
+DOMAIN-SUFFIX,zero-one.ai
+
+# iFlytek / 讯飞星火
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xf-yun.com
+
+# SiliconFlow / 硅基流动
+DOMAIN,api.siliconflow.cn

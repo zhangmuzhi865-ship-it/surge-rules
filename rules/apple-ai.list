@@ -1,0 +1,25 @@
+# Apple AI 规则集
+# 仓库: https://github.com/zhangmuzhi865-ship-it/surge-rules
+# 更新: 2026-11-09
+# 用法: RULE-SET,https://raw.githubusercontent.com/zhangmuzhi865-ship-it/surge-rules/main/rules/apple-ai.list,DIRECT
+# 说明:
+# - Apple 不公布完整域名列表，这里只收已公开 / 实测到的 Private Cloud Compute (PCC) 与 Siri 相关专用域名，
+#   不含 apple.com、icloud.com 等通用后缀，避免把 iCloud、App Store 等流量也带走。
+# - 策略按位置定: 在中国大陆想用 Apple Intelligence，PCC 常需走海外节点才能通过 IP 检查，此时把上面
+#   的 DIRECT 换成你的海外策略组；在境外、Apple Intelligence 本来就能用的地方，用 DIRECT 即可。
+# - 大部分 Apple Intelligence 是端侧处理，不走这份规则也能用；这份只管云端那部分。
+
+# Private Cloud Compute (PCC)
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN,api.apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,pcc.apple.com
+DOMAIN-SUFFIX,apple-intelligence.com
+
+# Siri / 语音与搜索
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,gateway.icloud.com
