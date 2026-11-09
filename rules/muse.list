@@ -1,0 +1,8 @@
+# Muse 规则集
+# 仓库: https://github.com/zhangmuzhi865-ship-it/surge-rules
+# 更新: 2026-11-09
+# 用法: RULE-SET,https://raw.githubusercontent.com/zhangmuzhi865-ship-it/surge-rules/main/rules/muse.list,PROXY
+# 说明: Meta Muse (muse.ai)，Meta 的个人 AI 助手，网页在 muse.ai，另有 ai.meta.com/muse/
+
+DOMAIN-SUFFIX,muse.ai
+DOMAIN,ai.meta.com
